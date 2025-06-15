@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Figtree', sans-serif;
+    src: url(../fonts/static/Figtree-ExtraBold.ttf), url(../fonts/static/Figtree-Medium.ttf),
+        url(../fonts/Figtree-Italic-VariableFont_wght.ttf), url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+
+body {
+    background-color: var(--bg-fundo-bg-p-h);
+    font-family: "Figtree", sans-serif;
+}
+
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .caixa-perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-caixa);
+    width: 350px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 10px 10px;
+}
+
+main .caixa-perfil .img-info img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+main .caixa-perfil .img-info p:nth-child(2) {
+    background-color: var(--bg-fundo-bg-p-h);
+    width: 75px;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+main .caixa-perfil .img-info p {
+    padding: 15px 1px;
+    font-size: 14px;
+
+}
+
+main .caixa-perfil .sobre {
+    padding: 0 8px;
+}
+
+main .caixa-perfil .sobre h1 {
+    font-size: 21px;
+    color: var(--info-ilustracao);
+    font-weight: 900;
+}
+
+main .caixa-perfil .sobre h1:hover,
+main .caixa-perfil .sobre a:hover {
+    color: var(--bg-fundo-bg-p-h);
+    cursor: pointer;
+}
+
+
+main .caixa-perfil .sobre P {
+    color: var(--text);
+    font-size: 16px;
+    margin-top: 17px;
+
+}
+
+main .caixa-perfil .perfil-nome {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 25px 0 5px;
+}
+
+main .caixa-perfil .perfil-nome img {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    padding-right: 10px;
+}
+
+main .caixa-perfil .perfil-nome span {
+    font-size: 14px;
+    font-weight: 800;
+}

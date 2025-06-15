@@ -1,0 +1,18 @@
+@media (max-width:375px) {
+    main .caixa-perfil {
+        max-width: 300px;
+    }
+
+    main .caixa-perfil .img-info img {
+        width: 100%;
+    }
+
+    main .caixa-perfil .sobre {
+    padding: 0 0px;
+}
+
+    main .caixa-perfil .sobre h1 {
+        font-size: 18px;
+        
+    }
+}
